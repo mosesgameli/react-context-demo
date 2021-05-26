@@ -17,7 +17,7 @@ function ThemContextProvider(props) {
   };
 
   return (
-    <ThemContext.Provider value={{ theme, toggleTheme }}>
+    <ThemContext.Provider value={{ ...theme, toggleTheme }}>
       {props.children}
     </ThemContext.Provider>
   );

@@ -9,4 +9,4 @@ In this example, we provide 2 contexts. One for changing the theme and one for s
 - run `npm install` to get the node modules
 - and then `npm start` to run the development server
 
-Note that React version is 16.8, if you find problems installing dependencies with Node 14+, it is advisable to create a new React app and then duplicate the code.
+Note that React version used is 16.8, if you find problems installing dependencies with Node 14+, it is advisable to create a new React app and then duplicate the code.
